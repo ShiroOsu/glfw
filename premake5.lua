@@ -66,10 +66,10 @@ filter "system:windows"
             "_CRT_SECURE_NO_WARNINGS"
 		}
 
-filter "configuration:Debug"
+filter "configurations:Debug"
 	runtime "Debug"
 	symbols "on"
 
-filter "configuration:Release"
+filter "configurations:Release"
 	runtime "Release"
 	optimize "on"
